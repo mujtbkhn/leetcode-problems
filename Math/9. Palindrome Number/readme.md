@@ -1,3 +1,4 @@
 # README
 
-Replace this content with your README.
+Approach: 
+- i will make it string and reverse and check
