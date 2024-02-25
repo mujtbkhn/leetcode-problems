@@ -1,3 +1,4 @@
 # README
 
-Replace this content with your README.
+approach: 
+- with a for loop check the number and remove it
