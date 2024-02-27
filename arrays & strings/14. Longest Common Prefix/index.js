@@ -19,14 +19,14 @@
 
 function lcp(str) {
     if (str.length === 0) return ""
-    for (let i = 0; i < str[0].length; i++) {
-        for (let j = 1; j < str.length; j++) {
-            if (str[0][i] !== str[j][i]) {
-                return str[0].slice(0, i)
+    for (let i = 0; i < str[0].length; i++) { //only the first word
+        for (let j = 1; j < str.length; j++) { //second word till the end
+            if (str[0][i] !== str[j][i]) { //checking every letter of first with all the words
+                return str[0].slice(0, i)  //return the string from the line where letters are not same 
             }
         }
     }
-    return str[0]
+    return str[0] //returning the first word which has the length of same letters 
 }
 
 console.log(lcp(["flowers", "floor", "flying"]))
