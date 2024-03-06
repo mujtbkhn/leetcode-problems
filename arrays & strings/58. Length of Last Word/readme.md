@@ -1,3 +1,6 @@
 # README
 
-Replace this content with your README.
+approach: 
+-  trim
+- split 
+- return
