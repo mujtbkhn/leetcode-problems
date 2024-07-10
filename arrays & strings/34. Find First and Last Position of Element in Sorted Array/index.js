@@ -62,3 +62,32 @@ function position(nums, target){
         
 }
 position([5,7,7,8,8,10], 8)
+
+
+// function position(nums, target) {
+//     function findLeft(i) {
+
+//         for (let i = 0; i < nums.length; i++) {
+//             if (nums[i] === target) {
+//                 console.log(i)
+
+//             }
+//         }
+//         return i
+//     }
+//     function findRight(i) {
+
+//         for (let i = nums.length - 1; i >= 0; i--) {
+//             if (nums[i] === target) {
+//                 console.log(i)
+
+//             }
+//         }
+//         return i
+//     }
+//     const left = findLeft(i)
+//     const right = findRight(i)
+//     console.log(left, right)
+// }
+
+// position([5, 7, 7, 8, 8, 10], 8)
